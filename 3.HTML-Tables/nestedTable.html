@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nested HTML Table</title>
+</head>
+<body>
+    <!--? Nested HTML Table-->~
+    <h1>Nested HTML Table</h1>
+    <hr>
+    <table>
+        <caption>
+            Employees Information
+        </caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Department</th>
+        </tr>
+        <!-- ? Table Data 1-->
+        <tr>
+            <td>John Smith</td>
+            <td>28</td>
+            <td>Male</td>
+            <td>
+                 <!--? Nested-->
+                <table>
+                    <!--? Nested table head-->
+                    <tr>
+                        <th>Department Name</th>
+                        <td>Manager</td>
+                        <td>Sales</td>
+                    </tr>
+                    <!--? Nested table data-->
+                    <tr>
+                        <td>Sales</td>
+                        <td>Emma</td>
+                        <td>$2000</td>
+                    </tr>
+
+                    <!--? Nested table data-->
+
+                    <tr>
+                        <td>IT</td>
+                        <td>Ben</td>
+                        <td>$8000</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+
+        <!-- ? Table Data 2-->
+        <tr>
+            <td>Thomas</td>
+            <td>40</td>
+            <td>Male</td>
+            <td>
+                 <!--* Nested 2-->
+                <table>
+                    <!--* Nested table head-->
+                    <tr>
+                        <th>Department Name</th>
+                        <td>Manager</td>
+                        <td>Sales</td>
+                    </tr>
+                    <!--* Nested table data-->
+                    <tr>
+                        <td>Finance</td>
+                        <td>Honore</td>
+                        <td>$4000</td>
+                    </tr>
+                    
+                    <!--* Nested table data-->
+
+                    <tr>
+                        <td>Security</td>
+                        <td>Andy</td>
+                        <td>$8000</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
